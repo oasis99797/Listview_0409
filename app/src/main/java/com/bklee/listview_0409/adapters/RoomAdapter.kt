@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter
 import com.bklee.listview_0409.datas.Room
 import com.bklee.listview_0409.R
 
-class RoomAdapter(context:Context, resId:Int, list:ArrayList<Room>) : ArrayAdapter<Room>(context, resId, list)  {
+class RoomAdapter(context: Context, resId:Int, list: ArrayList<Room>) : ArrayAdapter<Room>(context, resId, list) {
 
     val mContext = context
     val mList = list
@@ -22,8 +22,11 @@ class RoomAdapter(context:Context, resId:Int, list:ArrayList<Room>) : ArrayAdapt
 
         val row = tempRow!!
 
+//        row변수를 활용해서 각줄에 맞는 데이터 가공.
+
         return row
 
     }
+
 
 }
