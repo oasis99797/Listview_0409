@@ -23,6 +23,7 @@
             android:paddingLeft="10dp">
 
             <TextView
+                android:id="@+id/priceTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="가격자리"
@@ -31,6 +32,7 @@
                 android:textStyle="bold"/>
 
             <TextView
+                android:id="@+id/addressAndFloorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="주소, 층수"
@@ -39,6 +41,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/descTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="설명 자리" />
